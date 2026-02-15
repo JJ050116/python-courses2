@@ -8,6 +8,9 @@ if img is None:
 # gray scale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
+saveNew = cv2.imwrite('grayscale.jpeg', gray)
+newFile = cv2.imread('grayscale.jpeg')
+
 cv2.imshow('GrayScale', gray)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
