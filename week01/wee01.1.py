@@ -14,4 +14,3 @@ newFile = cv2.imread('new2.jpeg')
 cv2.imshow('test', newFile)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
