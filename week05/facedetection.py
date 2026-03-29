@@ -36,7 +36,7 @@ print(f'Face found: {len(faces)}')
 
 # 5) Drawing a frame if fond face
 for (x, y, w, h) in faces:
-    cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 0), 2)
+    cv2.rectangle(img, (x, y), (x + w, y + h), (0, 255, 0), 2)
 
 # 6) Show result
 cv2.imshow('Face Detection in Image', img)
