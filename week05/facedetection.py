@@ -11,7 +11,8 @@ if face_cascade.empty():
 # 2) Load image
 # img = cv2.imread('imgs/erling.png')
 # img = cv2.imread('imgs/neymarjr.webp')
-img = cv2.imread('imgs/albon.png')
+# img = cv2.imread('imgs/albon.png')
+img = cv2.imread('imgs/team.webp')
 
 if img is None:
     print('Image not found!')
